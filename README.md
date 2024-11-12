@@ -237,10 +237,29 @@ Python 3.8 이상.
 23년 초단위 대여이력 공공데이터에는 작성된 태어난 년도에서 오류가 많아 버려지는 데이터가 많았음. 
 그래서 둘의 데이터의 오차는 있으나 20대와 30대의 이용율이 높으며 10대 마찬가지로 이용율이 높은것으로 보임.
 
+<img src="image/09_weekdayAndWeekendUsageRatio_donutChart.png" width="100%">
+<img src="image/10_usageByWeek_barChart.png" width="100%">
+
+이용 건수 확인 결과 평일 사용 비율이 가장 높고,
+각 평일 이용건수에 비해 주말의 이용 건수가 다소 낮은것으로 확인.
+
+<img src="image/14_usageByTimeOnWeekday_barChart.png" width="100%">
+<img src="image/15_usageByTimeOnWeekend_barChart.png" width="100%">
+
+평일과 주말의 시간대별 사용량 분석결과 평일과 주말의 사용 시간대가 다르다는 것을 확인, 특히 평일에는 출퇴근 시간대에 사용량이 증가하지만 주말에는 오후 시간대에만 증가하는 것이 인상적임.  
+
 <img src="image/06_usageByTimeZoneAndMainUserAge_barGraph.png" width="100%">
 
-시간대별 현황을 분석한 결과 총 이용횟수가 가장 많은 시간대는 출퇴근 시간대이며 이 시간대에 주 사용자는 30대임을 알수 있음.
+시간대별 현황을 분석한 결과 총 이용횟수가 가장 많은 시간대는 평일 출퇴근 시간대이며 이 시간대에 주 사용자는 30대임을 알수 있음.
 그 외 시간대는 20대 사용 비율이 높음.  
+
+<img src="image/12_usageByGender_barChart.png" width="100%">
+
+성별에 따른 이용 건수의 차이는 남성이 2배 가까이 우세한 경향을 보임, 하지만 etc로 표시된 결측치가 높아 정확한 판단에는 무리가 있어보임
+
+<img src="image/13_genderUsageByWeek_barChart.png" width="100%">
+
+요일별 분포에서 남녀 모두 주말에 사용건수가 줄어드는 경향성을 보이는 것을 확인 할 수 있음.
 
 <img src="image/07_distributionOfRentalTimeByGenderAndAgeGroup_violinPlot.png" width="100%">
 <img src="image/08_usageByGenderAndAgeGroup_dotPlot.png" width="100%">
@@ -251,22 +270,9 @@ Python 3.8 이상.
 30대의 경우 출퇴근 시간대의 사용량이 높은 것을 다시 한 번 확인 할 수 있음. 
 70~90대의 연령대에선 여성의 사용 비율이 낮은 것을 알 수 있으며, 10대는 하교 시간 이후 사용량이 높은것을 파악할 수 있다. 
 
-<img src="image/09_weekdayAndWeekendUsageRatio_donutChart.png" width="100%">
-<img src="image/10_usageByWeek_barChart.png" width="100%">
-
-이용 건수 확인 결과 평일 사용 비율이 가장 높고,
-각 평일 이용건수에 비해 주말의 이용 건수가 다소 낮은것으로 확인.
-
-<img src="image" width="100%">
+<img src="image/11_ageWeekdayWeekendUsage_barChart.png" width="100%">
 
 평일/주말의 연령대를 분석해 보았을 떄에도 2,30 대의 이용률이 높다는 것을 재차 확인
-
-<img src="image" width="100%">
-<img src="image" width="100%">
-<img src="image" width="100%">
-<img src="image" width="100%">
-
-성별에 따른 이용 건수의 차이는 남성이 약간 많으나 
 
 <img src="image" width="100%">
 <img src="image" width="100%">
